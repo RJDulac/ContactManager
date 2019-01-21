@@ -3,13 +3,6 @@ import React, { Component } from "react";
 import { Consumer } from "../../context";
 
 class Contact extends Component {
-  state = {};
-
-  // static propTypes = {
-  //   name: PropTypes.string.isRequired,
-  //   email: PropTypes.string.isRequired,
-  //   phone: PropTypes.string.isRequired
-  // };
   state = {
     showContactInfo: false
   };
